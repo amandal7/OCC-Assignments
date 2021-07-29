@@ -1,0 +1,17 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: auto;
+  background: darkorange;
+  padding: 80px;
+  text-align: center;
+}
+
+#formwrapper,
+fieldset {
+  background-color: lightyellow;
+  max-width: 900px;
+  min-height: 100px;
+  border-radius: 10px;
+  padding: 11px;
+  margin: 0 auto 10px;
+}

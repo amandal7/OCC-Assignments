@@ -1,0 +1,53 @@
+body
+{
+    font-family: "Pallete Mosiac",sans-serif;
+}
+
+
+.container
+{
+    padding: 10%;
+    border: 1ch solid rebeccapurple;
+    width: 50%;
+    margin: auto;    
+}
+
+
+.container .input
+{
+    width: 50%;
+    height:40%;
+}
+
+.container .btn
+{
+    width: 10%;
+    height: 10%;
+}
+
+.container .ul
+{
+    width: 50%;
+    height: 40%;
+}
+
+.container .li
+{
+    color: purple;
+}
+
+
+.container li a
+{
+    float: right;
+    color: #000;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+
+.container #error
+{
+    color: red;
+    font-size: 118%;
+}

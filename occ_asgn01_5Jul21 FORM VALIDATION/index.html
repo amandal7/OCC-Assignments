@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Forms</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="divwrapper">
+    <h2><del>My Form </del></h2>
+    <form id="formwrapper">
+      <section>
+        <fieldset>
+          <caption>Form Validation</caption>
+          <p>
+            <label for="firstname" class="title">First Name :</label>
+            <input type="text" name="fname" placeholder="Enter FirstName" required />
+          </p>
+          <p>
+            <label for="lastname">Last Name :</label>
+            <input type="text" name="lname" placeholder="Enter LastName" required />
+          </p>
+          <p>
+            <label for="email">Email address:</label>
+            <input type="email" name="email" placeholder="Enter email" />
+          </p>
+          <p>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+          </p>
+          <p>
+            <label for="course">Select Your Course :</label>
+
+            <select type="text" value="" name="Subject">
+              <option>BSC CS</option>
+              <option>BSC PHYSICS</option>
+              <option>BSC CHEMISTRY</option>
+              <option>BSC MATHS</option>
+            </select>
+          </p>
+          <p>
+            <input type="submit" value="Submit" />
+          </p>
+        </fieldset>
+      </section>
+    </form>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
